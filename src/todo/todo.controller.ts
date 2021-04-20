@@ -1,6 +1,5 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { TodoListDto } from './dto/todo-list.dto';
-import { toPromise } from '../shared/utils';
 import { TodoDto } from './dto/todo.dto';
 import { TodoCreateDto } from './dto/todo-create.dto';
 import { TodoService } from './todo.service';
