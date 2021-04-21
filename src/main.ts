@@ -21,4 +21,5 @@ async function bootstrap() {
 
   Logger.log(`Server started running on http://localhost:${port}`, 'Bootstrap');
 }
+
 bootstrap();
