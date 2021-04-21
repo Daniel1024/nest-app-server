@@ -13,7 +13,6 @@
     "baseUrl": "./",
     "incremental": true,
     "lib": ["es2017"],
-    "types": ["reflect-metadata"],
     "paths": {
       "@todo/*": ["src/todo/*"],
       "@shared/*": ["src/shared/*"]

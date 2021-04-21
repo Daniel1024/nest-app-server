@@ -3,6 +3,7 @@ import { AppModule } from './app.module';
 import { ConfigService } from '@nestjs/config';
 import { Logger } from '@nestjs/common';
 import { getDbConnectionOptions, runDbMigrations } from '@shared/utils';
+import 'reflect-metadata';
 
 async function bootstrap() {
   console.log(process.env.NODE_ENV);
@@ -13,7 +14,7 @@ async function bootstrap() {
   /**
    * Run DB migrations
    */
-  await runDbMigrations();
+  // await runDbMigrations();
 
   const config = app.get(ConfigService);
   const port = config.get<number>('PORT');

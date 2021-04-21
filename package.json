@@ -5,6 +5,7 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "type": "commonjs",
   "scripts": {
     "run:services": "docker-compose up && exit 0",
     "prebuild": "rimraf dist",
